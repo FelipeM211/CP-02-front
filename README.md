@@ -38,8 +38,8 @@ O **Melodia** é um aplicativo de streaming musical moderno e intuitivo, desenvo
 
 ## 👥 Desenvolvedores
 
-| Nome | RM |
-|------|----|
-| Felipe Murad | RM562347 
-| Lucas Massoni | RM561686 
+| Nome |   RM   |
+|------|--------|
+| Felipe Murad  | RM562347 |
+| Lucas Massoni | RM561686 |
 
