@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Open+Sans:wght@300;400;600&display=swap');
+
+:root {
+  --primary: #6A0DAD;
+  --secondary: #FF6B6B;
+  --accent: #4ECDC4;
+  --dark: #1A1A2E;
+  --light: #F8F9FA;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: var(--light);
+  color: #333;
+  line-height: 1.6;
+}
+
+.heading-font {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.header-scroll {
+  background-color: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(10px);
+}
+
+
+.fade-in {
+  animation: fadeIn 0.5s ease-in;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+
+.card-hover {
+  transition: all 0.3s ease;
+}
+
+.card-hover:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+
+.music-player {
+  transition: all 0.3s ease;
+}
+
+.progress-bar {
+  appearance: none;
+  height: 4px;
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 2px;
+}
+
+.progress-bar::-webkit-progress-bar {
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 2px;
+}
+
+.progress-bar::-webkit-progress-value {
+  background: var(--secondary);
+  border-radius: 2px;
+}
+
+
+@media (max-width: 640px) {
+  .mobile-padding {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  
+  .mobile-text-center {
+    text-align: center;
+  }
+}
+
+
+.dark-mode {
+  background-color: var(--dark);
+  color: var(--light);
+}
+
+.dark-card {
+  background-color: #2D2D3A;
+  color: var(--light);
+}
